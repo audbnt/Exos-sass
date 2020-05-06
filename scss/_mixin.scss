@@ -1,0 +1,12 @@
+
+@mixin carte($largeur, $coul){
+    width: $largeur;
+    background-color: white;
+    color: $coul;
+    font-family: Arial, sans-serif;
+    // width: $box-width ;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    box-shadow: 1px 1px 10px black;
+}

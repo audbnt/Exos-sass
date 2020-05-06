@@ -1,0 +1,15 @@
+{
+  "name": "07-exos-sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o css -w --output-style compressed --source-map true -o css scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "description": ""
+}
